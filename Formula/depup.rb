@@ -1,26 +1,26 @@
 class Depup < Formula
   desc "Multi-language dependency updater CLI tool"
   homepage "https://github.com/owayo/depup"
-  version "26.7.102"
+  version "26.8.100"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/depup/releases/download/v26.7.102/depup-aarch64-apple-darwin.tar.gz"
-      sha256 "f175186167193473e372055eb322d91ac94f2e3a7eca97c801366a6bb8106e09"
+      url "https://github.com/owayo/depup/releases/download/v26.8.100/depup-aarch64-apple-darwin.tar.gz"
+      sha256 "1d3e1b2709bbb99093f026dddfdbd41a0c82e5d9565c1d6491b34beda0244268"
     else
-      url "https://github.com/owayo/depup/releases/download/v26.7.102/depup-x86_64-apple-darwin.tar.gz"
-      sha256 "a38159b16eb4dbde778dccf13f0f7970eb10b609a3830baa8d0542d30fb558bd"
+      url "https://github.com/owayo/depup/releases/download/v26.8.100/depup-x86_64-apple-darwin.tar.gz"
+      sha256 "686137b21b674e99390f40630c616b42f08b32f8947daaabac43946d03e997d6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/depup/releases/download/v26.7.102/depup-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "42ac98d209efd5f36d8f504ecb3ecd6add53e94a6d44c5b92be30386488ca9c9"
+      url "https://github.com/owayo/depup/releases/download/v26.8.100/depup-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b8aece4fa207e9d3ebc2af181cd00e0676cb7bcbfd7d1a6e080621c63dd1697c"
     else
-      url "https://github.com/owayo/depup/releases/download/v26.7.102/depup-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "714a749792e6bc148a2a7ebef31c23e6d61082d35f68fbeb5fe5490366a6ec98"
+      url "https://github.com/owayo/depup/releases/download/v26.8.100/depup-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "92eaf8b449b6e8134ac2ac254e8740ac98baad32a85b9063f1486140a33ab877"
     end
   end
 
