@@ -5,21 +5,21 @@ class Depup < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/depup/releases/download/v26.10.105/depup-aarch64-apple-darwin.tar.gz"
-      sha256 "539c368fa9751ec03b056e8de9b4f029dba495e8a727430a91b44a0becaf721f"
+      url "https://github.com/owayo/depup/releases/download/v26.10.106/depup-aarch64-apple-darwin.tar.gz"
+      sha256 "9a77c02763b14716b979175a744a147a8fb47265eb24e47a8e5a5513fc7627fe"
     else
-      url "https://github.com/owayo/depup/releases/download/v26.10.105/depup-x86_64-apple-darwin.tar.gz"
-      sha256 "3e1f2cdeca4ed17f25b93878e04ba472aa1d7a8e849f62c7b6869b47e16e2194"
+      url "https://github.com/owayo/depup/releases/download/v26.10.106/depup-x86_64-apple-darwin.tar.gz"
+      sha256 "afa60f89cf1add8a6b29d8d3b308ab81d9815b17dbaabf977d4c2cc235ab02cd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/depup/releases/download/v26.10.105/depup-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d5ba24c725d674d0025427c4f314c67ae681ac2dba70c7e7059d77a55a949375"
+      url "https://github.com/owayo/depup/releases/download/v26.10.106/depup-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6f9bf93e3c98abc4cc072b177bb988ffad78f95e1dcb7031627abe6456c211b8"
     else
-      url "https://github.com/owayo/depup/releases/download/v26.10.105/depup-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "11d2ef538f7e849c91c8217a28cd88f021e4f89478f354cdd493e48eafc1fefe"
+      url "https://github.com/owayo/depup/releases/download/v26.10.106/depup-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a8cc2c6f83f52d82611ada2867beb435ae53d004f45996cc0500f0c60bb7a55a"
     end
   end
 
